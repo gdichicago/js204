@@ -24,5 +24,9 @@
     "extending-book.html",
     "iheritance-vs-implementation.html",
     "inheritance-vs-implementation-2.html",
-    "exercise-2.html"
+    "exercise-2.html",
+    "style.html",
+    "arguments.html",
+    "arguments-upgraded.html",
+    "optional-args.html"
 ]
