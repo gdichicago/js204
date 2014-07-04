@@ -1,64 +1,57 @@
-# GDI Chicago Slides Template
+# GDI JS204: Object-Oriented JavaScript.
 
-These slides are built using Yeoman, with the Reveal generator. It will compile your Sass (located in `css/source`) automatically.
+Slides are built using the [Yeoman Reveal generator template](https://github.com/gdichicago/yeoman_reveal_template). See the repo for instructions on making modifications to the slides.
 
-If you add a new Sass file that isn't a partial, you need to edit the Gruntfile. You'll see examples of where this change needs to be made.
+Slides and materials are hosted [here](http://gdichicago.com/classes/js204/workshop/).
 
-# Getting started
+## Course description
 
-Download a zip of the [tagged release](https://github.com/gdichicago/yeoman_reveal_template/releases) you want to use. I always recommend the most recent, but there may be different versions.
+Nowadays, we are using JavaScript more and more on our webpages, and that means that we can end up with hundreds or even thousands of lines of JS. If you're not careful, your code can quickly become an unnavigable maze of spaghetti code. Most web developers are now using Object-oriented concepts to help them modularize their code and make it more re-usable.
 
-Unzip the file and place the contents in the Git repo of the class you're creating.
+In this afternoon workshop, we'll give an overview of Object-oriented JavaScript, and spend most of our time actually getting our hands dirty using those concepts.
 
-This repository includes a `.gitignore` that you should *really* keep. Its contents:
+This is intended to be a follow-up workshop for JS101, or for those already comfortable with JavaScript looking to expand their skills.
 
-```
-node_modules
-*.log
-.sass-cache
-```
+**Cost:** $40
 
-*Note*: the `bower_components` folder isn't ignored. This is commonly ignored, but this template is designed to be packaged and uploaded as-is without any special tweaks (other than creating slides).
+**Dates:** Saturday, July 26 from 12-4 PM
 
-You should have npm and Sass (Ruby gem) installed already.
+**Location:** Dev Bootcamp, 351 W Hubbard, Floor 7
 
-```
-$ npm install -g yeoman
-$ npm install -g generator-reveal
-$ npm install
-```
+*A limited number of scholarships are available for those with a financial hardship. To apply, click here. Do not RSVP for the event. The deadline to apply for a scholarship is May 25. Scholarship applicants will be notified shortly after the deadline. Class capacity does not impact scholarship students.*
 
-And then you're ready.
+###Prerequisites:
 
-# Usage
-
-To add a new (HTML) slide:
-
-```
-$ yo reveal:slide "Slide name"
-```
-
-If you want to use Markdown:
-
-```
-$ yo reveal:slide "Slide Title" --markdown
-```
-
-To watch:
-
-```
-$ grunt server
-```
-
-To compile for distribution (`slideshow` folder):
-
-```
-$ grunt dist
-```
-
-# End result
+Attendees should be comfortable with HTML5 and CSS3: specifically, you should understand the box model, floats, CSS resets, and HTML5 standards and tags. Additionally, you should be familiar with JavaScript syntax, data structures, conditionals, loops, and event handling.
 
 You should have:
 
-* a website in the `workshop` folder
-* slides in the `slideshow` folder
+(a) taken Intro or Intermediate HTML/CSS through Girl Develop It, or
+
+(b) built and managed websites on your own,
+
+**And also:**
+
+(a) taken JS101 (full 4-week series, or completed all exercises and homework for the self-paced workshop) and JS 201 through Girl Develop It, or
+
+(b) have completed a self-study JavaScript course, and are familiar with syntax, arrays, conditionals, for and while loops, event handling, and jQuery.
+
+If you need to brush up on your HTML and CSS, you can review The Beginner's Guide to HTML and CSS and The Advanced Guide to HTML and CSS.
+
+
+###Tech requirements:
+
+* Your laptop (Mac, PC, or Linux are all okay).
+* A modern web browser - either Chrome or Firefox with Firebug installed.
+* A text editor. We recommend Sublime Text 2 (free; available for both Mac and PC).
+
+###Topics covered:
+
+* What is an object? What is an instance?
+* Applying Object-oriented principles to JavaScript
+* Defining objects in JavaScript
+* Inheritance
+* Extending objects
+* Constructors
+* Optional arguments
+* How Object-oriented JavaScript is different from other languages
