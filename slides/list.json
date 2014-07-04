@@ -31,5 +31,7 @@
     "optional-args.html",
     "exercise-3.html",
     "objects-and-the-dom.html",
-    "spaghetti-code-no-more.html"
+    "spaghetti-code-no-more.html",
+    "refactoring.html",
+    "exercise-4.html"
 ]
