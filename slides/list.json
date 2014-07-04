@@ -29,5 +29,7 @@
     "arguments.html",
     "arguments-upgraded.html",
     "optional-args.html",
-    "exercise-3.html"
+    "exercise-3.html",
+    "objects-and-the-dom.html",
+    "spaghetti-code-no-more.html"
 ]
