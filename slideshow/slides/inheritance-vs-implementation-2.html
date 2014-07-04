@@ -1,0 +1,18 @@
+<h2>Implementation</h2>
+
+<p>Changing parent methods and properties, or creating new ones that the parent does not have access to.</p>
+
+<p>Using our <code>Paperback</code> (<code>Book</code>) from earlier:</p>
+
+<pre><code class="javascript" contenteditable>// A new method on this object
+PaperBack.prototype.burn = function() {
+  console.log("Omg, you burnt all " + this.numPages + " pages");
+  this.numPages = 0;
+}
+
+// Instantiating a new object
+var paperback = new PaperBack("1984", "George Orwell", 250, "cover.jpg");
+paperback.read();
+paperback.burn();</code></pre>
+
+<p><code>Paperback</code> has a method <code>burn()</code> that its parent object (<code>Book</code>) does not.</p>

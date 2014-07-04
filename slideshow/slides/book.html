@@ -1,0 +1,21 @@
+<h2>Book</h2>
+
+<p>Putting it all together, it looks something like this:</p>
+
+<pre><code class="javascript" contenteditable>// The constructor function
+function Book(title, author, numPages) {
+  // The properties of this object
+  this.title = title;
+  this.author = author;
+  this.numPages = numPages;
+  this.currentPage = 0;
+}
+
+// A method on the object
+Book.prototype.read = function() {
+  console.log("You read " + this.numPages + " pages!");
+}
+
+// Instantiating a new object
+var book = new Book("Robot Dreams", "Isaac Asimov", 320);
+book.read();</code></pre>

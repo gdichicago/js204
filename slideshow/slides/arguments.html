@@ -1,0 +1,14 @@
+<h2>Arguments</h2>
+
+<p>We can make our constructor code easier to read by passing an object with values instead of individual arguments.</p>
+
+<p>Old, ugly way:</p>
+
+<pre><code class="javascript" contenteditable>function Book(title, author, numPages) {
+  this.title = title;
+  this.author = author;
+  this.numPages = numPages;
+  this.currentPage = 0;
+}
+
+var book = new Book("Robot Dreams", "Isaac Asimov", 320);</code></pre>

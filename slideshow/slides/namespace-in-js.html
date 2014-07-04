@@ -1,0 +1,20 @@
+<h2>Namespace in JS</h2>
+
+<p>Here is an example of a global namespace (<code>Bird</code>):</p>
+
+<pre><code class="js" contenteditable>var Bird = Bird || {};
+
+Bird.eat = function() {
+  alert("Yummy yummy treats in my tummy tummy!");
+};
+Bird.eat();</code></pre>
+
+<p>And a subnamespace (<code>say</code>):</p>
+
+<pre><code class="js" contenteditable>Bird.say = {};
+Bird.say = {
+  hello: function(name) {
+    alert("Hello " + name + "!");
+  }
+};
+Bird.say.hello("Liz");</code></pre>

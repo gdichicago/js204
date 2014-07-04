@@ -1,0 +1,18 @@
+<h2>Optional arguments</h2>
+
+<p>We can make our arguments even better by making them <em>optional</em>!</p>
+
+<p>To do this, we set default values in our constructor.</p>
+
+<pre><code class="javascript" contenteditable>function Book(config) {
+  config = config || {};
+  this.title = config.title || "Untitled";
+  this.author = config.author || "Unknown";
+  this.numPages = config.numPages || 100;
+  this.currentPage = 0;
+}
+
+var book = new Book({
+    title: "Robot Dreams",
+    numPages: 320);
+</code></pre>
