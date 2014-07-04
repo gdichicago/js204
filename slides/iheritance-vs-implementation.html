@@ -1,0 +1,15 @@
+<h2>Inheritance</h2>
+
+<p>Access to the properties and methods created by the parent object(s).</p>
+
+<p>Using our Book from earlier:</p>
+
+<pre><code class="javascript" contenteditable>// The constructor function
+function Paperback(title, author, numPages, cover) {
+  Book.call(this, title, author, numPages);
+  this.cover = cover;
+}
+// Extending the Book object
+Paperback.prototype = Object.create(Book.prototype);</code></pre>
+
+<p>Because it inherits from <code>Book</code>, <code>Paperback</code> has the properties and methods available to book as well.</p>

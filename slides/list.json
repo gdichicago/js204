@@ -19,5 +19,10 @@
     "fish-inheritance.html",
     "prototype-based-oop.html",
     "book.html",
-    "exercise-1.html"
+    "exercise-1.html",
+    "extending-objects.html",
+    "extending-book.html",
+    "iheritance-vs-implementation.html",
+    "inheritance-vs-implementation-2.html",
+    "exercise-2.html"
 ]
